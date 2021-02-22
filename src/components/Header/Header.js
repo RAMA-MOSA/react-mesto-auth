@@ -25,7 +25,7 @@ function Header({ loggedIn, onSingOut, authorizationUserEmail }){
             <address
               className="header__address"
             >
-              {authorizationUserEmail && authorizationUserEmail}
+              {authorizationUserEmail}
             </address>
             <button
               className="header__button"

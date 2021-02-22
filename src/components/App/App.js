@@ -45,7 +45,7 @@ function App() {
           .then((res) => {
             if (res) {
               setLoggedIn(true);
-              setAutorizationUserEmail(res.email);
+              setAutorizationUserEmail(res.data.email);
               history.push('/');
             }
           })
